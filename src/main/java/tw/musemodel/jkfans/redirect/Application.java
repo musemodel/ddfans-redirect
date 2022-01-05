@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 @SpringBootApplication
 public class Application {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(OneAndOnlyController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
 
 	private static final String REDIRECT_HOST = System.getenv("REDIRECT_HOST");
 

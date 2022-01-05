@@ -1,9 +1,5 @@
 # 从 A 网域重导向到 B 网域
 
-[TOC]
-
-###### tags: `java`
-
 ---
 
 ## 缘起
@@ -29,7 +25,7 @@
 - 某些参数键可能会有多个值(重复键)。
 - 最后带入 utm 参数。
 
-```java=21
+```java
 	/**
 	 * @param parameters 查询参数
 	 * @param serverName
@@ -100,7 +96,7 @@
 
 ## 任何 HTTP GET 请求
 
-```java=72
+```java
 	/**
 	 * @param request 任何 GET 请求
 	 * @return 重导向
