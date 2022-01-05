@@ -1,0 +1,39 @@
+.DS_Store
+.env
+jshell.history
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iml
+*.ipr
+*.iws
+
+### NetBeans ###
+.nb-gradle/
+build/
+dist/
+nbbuild/
+nbactions.xml
+nbdist/
+nbproject/private/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+web/target/
+common/target/
+worker/target/
+
+### VS Code ###
+.vscode/
